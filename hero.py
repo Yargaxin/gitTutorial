@@ -32,6 +32,7 @@ class SuperHero(Hero):
 		self.magic = 100
 	
 	def makemagic(self):
+		#Magic reduction
 		self.magic -= 10
 
 	def show_hero(self):
